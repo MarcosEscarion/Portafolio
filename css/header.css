@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    box-shadow: 0em 0.1rem 1rem rgba(236, 231, 231, 0.664); 
+    height: 3,5rem;
+}
+
+.logo {
+    margin-left: 3rem;
+    width: 5.5rem;
+}
+
+.menu__lista {
+    margin-left: 2rem;
+    display: flex;
+    list-style: none;
+}
+
+.menu__link {
+    margin: 0.3rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2em;
+    color: rgb(32, 33, 36);
+    transition: all 0.4s;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.menu__link:hover {
+    background-color: rgba(154, 173, 207, 0.1);
+}
+
+/*@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+    .menu__lista{
+        display: none;
+    }
+    .logo {
+        margin: auto;
+    }
+    .header {
+        position: relative;
+        width: 100%;
+        justify-content: center;
+
+    }
+    main {
+        padding-top: 1rem;
+    }
+}*/

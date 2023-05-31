@@ -1,0 +1,102 @@
+.contacto{
+    display: flex;
+    justify-content: center;
+    background-image: url("e:/ONE/RutaFrontEnd/Sprint/1SprintPortafolio/img/contacto.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    /*background-color: rgb(212, 220, 227);*/
+}
+.contacto__img{
+    border-radius: 0.5rem;
+    margin: 1rem;
+    
+}
+
+.contacto__contenido{
+
+    margin: 1rem;
+    font-family: Montserrat;
+    padding: 1rem;
+    box-shadow: .5em 0em 0.5em rgb(141, 135, 135);  
+
+}
+
+.contacto__titulo{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.contacto__descripcion{
+    line-height: 1.5rem ;
+    margin-bottom: 1.5rem;
+}
+
+.formulario__label{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.formulario__input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    display: block;
+    margin-bottom: 1.2rem;
+    border-width: 0.01rem;
+}
+.formulario__mensaje{
+    border-radius: 1rem;
+    padding: 1REM;
+}
+.formulario__enviar{
+    display: block;
+    margin-top: 1rem;
+    width: 11rem;
+    padding: 0.5rem;
+    font-family: Montserrat;
+    transition: 400ms;
+  
+}
+.formulario__enviar:hover{
+    background: rgb(50, 50, 225);
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+
+    .contacto__img{
+        width: 0rem;
+        border-radius: 0.5rem;
+        margin: 1rem;
+        
+    }
+    
+    .contacto__contenido{
+        font-size: 0.7rem;
+        width: 22rem;
+        padding: 1rem;
+        box-shadow: none;
+       
+    }
+    .contacto{
+        font-size: 1rem;
+        background: none;
+        margin: auto;
+    }
+    .formulario__input{
+        font-size: 0.5rem;
+        padding: 0.1rem;
+        margin-bottom: 1rem;
+       
+    }
+    .formulario__mensaje{
+        border-radius: 1rem;
+        padding: 1REM;
+        width: 12rem;
+    }
+}
+
+

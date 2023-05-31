@@ -1,0 +1,96 @@
+
+.proyectos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*background-color: azure;*/
+}
+.proyectos__titulo{
+    width: 100%;
+    padding:0.5rem;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.proyecto__items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem 8rem 1rem 8rem;
+}
+
+.proyecto__imagen{
+    width: 45rem;
+    margin-right: 4rem;
+    border-radius: 0.2rem;
+}
+
+.proyecto__cotenido{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 19rem;
+    font-family:  Montserrat;
+    font-size: 0.9rem;
+}
+
+.proyeto__titulo{
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+    margin-top:1rem;
+    
+}
+
+.proyecto__descripcion{
+    text-align: center;
+    font-size: 0.7rem;
+
+   font-weight: 400;
+    width: 100%;
+    margin-top:0.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    text-decoration: none;
+    font-family:Montserrat;
+    font-weight: 500;
+    color:black;
+    background: rgb(145, 195, 245);
+    border-radius: 5px;
+    padding: 0.8rem;
+    margin: 1rem;
+    transition: 400ms;
+  
+}
+
+.btn.demo{
+     padding: 0.8rem 2rem;
+}
+
+.btn:hover{
+    background: rgb(50, 50, 225);
+    color:white;
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+    .proyecto__imagen{
+        width: 20rem;
+        margin-right: rem;
+        border-radius: 0.2rem;
+    }
+    .proyecto__items{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+        margin: 0rem 0rem 1rem 0rem;
+    }
+
+}

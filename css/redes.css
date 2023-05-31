@@ -1,0 +1,74 @@
+.contenido__redes {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
+    
+}
+
+.redes__items {
+    list-style: none;
+}
+
+.redes__link.linkedin {
+    position: fixed;
+    left: 97%;
+    right: 6%;
+    top:50% ;
+}
+.redes__link.git {
+    position: fixed;
+    left: 97%;
+    right: 6%;
+    top:56% ;
+}
+.redes__link.cv{
+    position: fixed;
+    left: 97%;
+    right: 6%;
+    top:62%;
+}
+.redes__link.whatsapp{
+    position: fixed;
+    left: 97%;
+    right: 6%;
+    top:68%;
+}
+
+
+.icon {
+    width: 2rem;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+    .redes__link.linkedin{
+        position: relative;
+        margin-right: 1rem;
+
+    }
+    .redes__link.git{
+        position: relative;
+        margin-right: 1rem;
+
+
+    }
+    .redes__link.cv{
+        position: relative;
+        margin-right: 1rem;
+
+
+    }
+    .redes__link.whatsapp{
+        position: relative;
+        margin-right: 1rem;
+
+
+    }
+    .contenido__redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+    }
+
+}

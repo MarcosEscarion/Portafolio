@@ -1,0 +1,59 @@
+.skills{
+    
+    margin:3rem 8rem;
+    
+    height: 100vh;
+
+}
+.skill__titulo {
+    padding-top: 2.5rem;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+.skill__lista {
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin: 0;
+    padding: 2rem 6rem 0 6rem;
+
+}
+.skill__items {
+   display: flex;
+   flex-wrap: wrap;
+   flex-basis: 7rem;
+   margin:1rem 2rem 2rem 2rem;
+   padding: 1.5rem;
+   background: rgba(234, 249, 252, 0.639);
+   box-shadow: .5em 0.5em 0.5em rgb(45, 26, 153); /* offset-x | offset-y | blur-radius | spread-radius | color */
+   border-radius: 1rem;
+   justify-content: center;
+}
+
+.skill__img {
+    width: 4rem;
+    height: 4rem;
+    justify-content: center;
+}
+
+.skill__descripcion {
+    text-align: center;
+    font-family:  Montserrat;
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 100%;
+    margin-top:1rem;
+}
+/*@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+    .skills{
+        margin:0rem;
+    }
+    .skill__titulo {
+        font-size: 1.5rem;
+    }
+}*/
+
+
